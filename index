@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online Food Delivery in India | MyOnlineMeal.com</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="/project2/CSS/phone.css">
+    <link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo"><img src="logo.png" alt="MyOnlineMeal"></div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 id="h-primary">Welcome to the MyOnlineMeal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum velit dignissimos, quas pariatur ex a possimus
+            voluptate distinctio.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="button">Order Now</button>
+    </section>
+    <section id="services-container">
+        <h1 class="h-secondary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="pizza-png-19321.png" alt="">
+                <h2 class="h-secondary center">Food Odering</h2>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut in corrupti numquam eius
+                    deleniti
+                    distinctio odit maiores cupiditate non reiciendis quisquam est veritatis autem incidunt soluta
+                    dolorem eveniet quibusdam, harum dolore voluptatem facere mollitia?</p>
+            </div>
+            <div class="box">
+                <img src="image2.png.png" alt="">
+                <h2 class="h-secondary center">Bulk Odering</h2>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut in corrupti numquam eius
+                    deleniti
+                    distinctio odit maiores cupiditate non reiciendis quisquam est veritatis autem incidunt soluta
+                    dolorem eveniet quibusdam, harum dolore voluptatem facere mollitia?</p>
+            </div>
+            <div class="box">
+                <img src="image3.png.png" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut in corrupti numquam eius
+                    deleniti
+                    distinctio odit maiores cupiditate non reiciendis quisquam est veritatis autem incidunt soluta
+                    dolorem eveniet quibusdam, harum dolore voluptatem facere mollitia?</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-items" id="landrover">
+                <img src="landrover.png" alt="Our Clients">
+
+            </div>
+            <div class="client-items" id="apple">
+                <img src="apple.png" alt="Our Clients">
+
+            </div>
+            <div class="client-items">
+                <img src="google.png" alt="Our Clients">
+
+            </div>
+            <div class="client-items">
+                <img src="fanta.png" alt="Our Clients">
+
+            </div>
+            <div class="client-items">
+                <img src="ford.png" alt="Our Clients">
+
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <h2 class="h-primary center" id="webtrusth">Welcome to India's Most Trusted Food Delivery Website!</h2>
+        <p class="h-primary center" id="webtrustp">At MyOnlineMeal, we understand the importance of delicious, hot, and convenient meals delivered right to
+            your doorstep. We take immense pride in being the go-to choice for foodies across India. Our commitment to
+            quality, reliability, and a vast array of culinary delights has made us your most trusted partner in
+            satisfying your food cravings.</p>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" placeholder="Enter your name" id="name">
+
+                </div>         <div class="form-group">
+                    <label for="name">E-mail:</label>
+                    <input type="email" name="email" placeholder="Enter your E-mail" id="email">
+
+                </div>         <div class="form-group">
+                    <label for="name">Phone:</label>
+                    <input type="phone" name="phone" placeholder="Enter your phone" id="phone">
+
+                </div>         <div class="form-group">
+                    <label for="name">Message:</label>
+                    <textarea name="Message" id="message" cols="30" rows="10"></textarea>
+
+                </div>  
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center" id="fs">Copyright &copy; 2021-2025</div>
+        <div class="center" id="fs">www.MyOnlineMeal.com</div>
+        <div class="center" id="fs">All Rights Reserved</div>
+    </footer>
+</body>
+
+</html>
